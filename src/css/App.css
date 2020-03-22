@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+
+nav ul li {
+  margin: 0 0.5rem;
+}
+
+nav ul li a:link, a:visited {
+  background-color: black;
+  color: red;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+div .page form button {
+  background-color: rgb(19, 250, 88); 
+  border: none;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div .page form input {
+  box-sizing: border-box;
+  display: block;
+  margin: 0px 0px 5px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
